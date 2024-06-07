@@ -2,6 +2,7 @@ package chess;
 
 import boradgame.Board;
 import boradgame.Position;
+import chess.pieces.King;
 import chess.pieces.Rook;
 
 public class ChessMatch {
@@ -26,6 +27,7 @@ public class ChessMatch {
 	//metodo de iniciar a partida e colocar as peças
 	private void initialSetup() {
 		board.placePiece(new Rook(board, Color.WHITE), new Position (2,1));
+		board.placePiece(new King(board, Color.WHITE), new Position (3,1));
 	}
 	
 }
