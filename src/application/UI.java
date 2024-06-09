@@ -62,7 +62,7 @@ public class UI {
 		System.out.println("  A B C D E F G H");
 	}
 	
-	//colorir o fundo de possivies movimentos
+	//colorir o fundo de possivies movimentos (sobrecarga)
 	public static void printBoard(ChessPiece[][] pieces, boolean[][] possibleMoves) {
 		for (int i = 0; i < pieces.length; i++) {
 			System.out.print((8 - i) + " ");
